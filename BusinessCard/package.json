@@ -1,0 +1,17 @@
+{
+  "name": "businesscard",
+  "version": "1.0.0",
+  "description": "Business card made in react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir public --watch"
+  },
+  "author": "satyam",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
