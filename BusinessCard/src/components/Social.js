@@ -9,11 +9,6 @@ export default function Social() {
         </li>
         <li>
           <a href="#">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
             <i class="fa-brands fa-square-facebook"></i>
           </a>
         </li>
