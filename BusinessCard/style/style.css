@@ -85,7 +85,10 @@ main {
 
 .btn > i {
   margin-right: 5px;
-  
+}
+
+.actions > .btn {
+  cursor: pointer;
 }
 
 .email {
