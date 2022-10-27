@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-dir public --watch"
+    "build": "babel src --out-dir public --watch",
+    "deploy": "rm -r deploy; mkdir deploy; cp index.html deploy; cp -r style deploy; cp -r static deploy; babel src --out-dir deploy/public;"
   },
   "author": "satyam",
   "license": "ISC",
