@@ -403,6 +403,10 @@ var _Navbar = __webpack_require__(16);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
+var _Hero = __webpack_require__(17);
+
+var _Hero2 = _interopRequireDefault(_Hero);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /*
@@ -414,7 +418,8 @@ function App() {
   return _react2.default.createElement(
     "div",
     null,
-    _react2.default.createElement(_Navbar2.default, null)
+    _react2.default.createElement(_Navbar2.default, null),
+    _react2.default.createElement(_Hero2.default, null)
   );
 }
 
@@ -30522,6 +30527,46 @@ function Navbar() {
     "nav",
     null,
     _react2.default.createElement("img", { src: "./images/airbnb-logo.png", height: "30px" })
+  );
+}
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Hero;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Hero() {
+  return _react2.default.createElement(
+    "main",
+    { className: "container" },
+    _react2.default.createElement("img", { className: "hero--image", src: "./images/photo-grid.png" }),
+    _react2.default.createElement(
+      "div",
+      { className: "hero--info" },
+      _react2.default.createElement(
+        "h1",
+        { className: "hero--title" },
+        "Online Experiences"
+      ),
+      _react2.default.createElement(
+        "p",
+        { className: "hero--para" },
+        "Join unique interactive activities led by one-of-a-kind hosts-all without leaving home."
+      )
+    )
   );
 }
 
