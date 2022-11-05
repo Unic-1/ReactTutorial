@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+}
+
+.card {
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  width: 300px;
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.card > p {
+  margin-top: 10px;
+}
