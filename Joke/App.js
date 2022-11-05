@@ -17,14 +17,9 @@ export default function App() {
     },
   ];
 
-  let x = <Joke setup={jokes[0].setup} punchline={jokes[0].punchline} />;
-  // x += <Joke setup={jokes[0].setup} punchline={jokes[0].punchline} />;
+  let jokeElements = jokes.map((joke) => (
+    <Joke setup={joke.setup} punchline={joke.punchline} />
+  ));
 
-  return (
-    <div>
-      <Joke setup={jokes[0].setup} punchline={jokes[0].punchline} />
-      <Joke setup={jokes[1].setup} punchline={jokes[1].punchline} />
-      <Joke setup={jokes[2].setup} punchline={jokes[2].punchline} />
-    </div>
-  );
+  return <div>{jokeElements}</div>;
 }
