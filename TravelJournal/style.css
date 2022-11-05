@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #F55A5A;
+  color: white;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+}
+
+a > span {
+  margin-right: 5px;
+}
