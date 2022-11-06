@@ -27,7 +27,7 @@ header {
 }
 
 .container {
-  width: 80%;
+  max-width: 80%;
   margin: 20px auto;
 }
 
@@ -59,4 +59,8 @@ input {
   grid-column: 1 / -1;
   border-radius: 7px;
   font-family: 'Karla', sans-serif;
+}
+
+.meme--image {
+  width: 100%;
 }
